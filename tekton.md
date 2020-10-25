@@ -13,7 +13,6 @@ Lo scopo di questa demo è quello di costruire un flusso continuo che esegua l'a
 - [Tekton Pipelines](!https://github.com/tektoncd/pipeline/blob/master/docs/install.md)
 - [Tekton Pipelines cli](!https://github.com/tektoncd/cli/releases)
 
-![Tekton](https://raw.githubusercontent.com/OpsDevAcademy/wiki/main/tekton.png)
 Per prima cosa creiamo un `Task`, questi (i tasks) sono da considerarsi come l'unità atomica di una pipeline, difatti ogniuna di queste è costituita di uno o più tasks che vengono eseguiti in sequenza.  
 E' bene cercar sempre di parametrizzare il più possibile un task in modo da poterlo riutilizzare all'occorrenza in futuro cambiando solo i parametri specifici.  
 Facciamo un esempio pratico, se ad esempio il nostro task dovrà eseguire il clone di un repository git invece di
